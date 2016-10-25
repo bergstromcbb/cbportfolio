@@ -42,7 +42,6 @@ li a:hover {
 }
 
 .name{
-    width: 100%;
     color:#e26a8d;
     text-align: center;
     font-size: 50px;
@@ -81,12 +80,10 @@ li a:hover {
 .leftcolumn{
 	width: 30%;
 	background-color: mistyrose;
-    padding: 15px;
 }
 
 .rightcolumn{
 	width: 70%;
-    padding: 15px;
 
 }
 
@@ -94,19 +91,16 @@ li a:hover {
 	font-family: KG Girl On Fire;
 	font-size: 20px;
 	font-weight: bold;
-    margin-top: 8px;
-    
 }
 
 .resumename {
-	font-size: 3em;
+	font-size: 40px;
 	font-family: KG Girl On Fire;
 }
 
 h2 {
     font-family: KG Girl On Fire;
     color: #e26a8d;
-    margin: 0;
 }
 
 h3 {
@@ -114,6 +108,9 @@ h3 {
 
 }
 
+div {
+    padding: 15px;
+}
 
 a {
     margin-left: 10px;
@@ -134,7 +131,6 @@ h1 {
 .resumename {
     text-align: left;
     color: #e26a8d;
-    margin-bottom: 0px;
 }
 
 
