@@ -5,7 +5,7 @@
 
 .bar {
 	float: left;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 	font-size: 28px;
 	margin: 0;
 	padding: 0;
@@ -55,7 +55,7 @@ li a:hover {
 	text-align: center;
 	font-size: 75px;
 	font-style: bold;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 }
 
 .name2 {
@@ -63,7 +63,7 @@ li a:hover {
 	text-align: center;
 	font-size: 50px;
 	font-style: bold;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 }
 
 .bottombar {
@@ -76,7 +76,7 @@ li a:hover {
 	display: flex;
 	padding: 10px;
 	justify-content: center;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 
 }
 
@@ -178,7 +178,7 @@ section {
 }
 
 .project {
-		font-family: KG Girl On Fire;
+		font-family: "KG Girl On Fire";
 	font-size: 25px;
 	color: #e26a8d;
 	font-weight: bold;
@@ -187,7 +187,7 @@ section {
 
 .box7 {
 	width: 190px;
-	font-family: helvetica neue;
+	font-family: "helvetica neue";
 	font-size: 15px;
 	margin: 10px;
 	text-align: left;
@@ -195,20 +195,20 @@ section {
 .box8 {
 	display: inline-block;
 	width: 190px;
-	font-family: helvetica neue;
+	font-family: "helvetica neue";
 	font-size: 15px;
 	margin: 10px;
 }
 .box9 {
 	display: inline-block;
 	margin: 10px;
-	font-family: helvetica neue;
+	font-family: "helvetica neue";
 	font-size: 15px;
 	width: 190px;
 }
 
 .designer {
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 8px;
@@ -221,17 +221,17 @@ section {
 
 .resumename {
 	font-size: 3em;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 }
 
 h2 {
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 	color: #e26a8d;
 	margin: 0;
 }
 
 h3 {
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 
 }
 
@@ -249,7 +249,7 @@ h1 {
 
 .header {
 	color: #e26a8d;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 }
 
 .resumename {
@@ -268,7 +268,7 @@ h1 {
 .middlelinks {
 	text-align: center;
 	color: #e26a8d;
-	font-family: KG Girl On Fire;
+	font-family: "KG Girl On Fire";
 	font-size: 25px;
 }
 
