@@ -73,7 +73,7 @@ li a:hover {
 }
 
 .container {
-/*	display: flex;
+	display: flex;
 	padding: 10px;
 	justify-content: center;
 	font-family: KG Girl On Fire;
@@ -85,8 +85,8 @@ li a:hover {
 }
 
 .columnsoverall {
-	/*display: flex;
-	flex-direction: row;*/
+	display: flex;
+	flex-direction: row;
 }
 
 .containeroverall {
