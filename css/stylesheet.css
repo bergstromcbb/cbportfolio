@@ -330,7 +330,7 @@ body {
 	}
 	.homebuttons {
 		    background-size: 100%;
-		    padding-top: 50px;
+		    padding-top: 40px;
 		    width: 150px;
 	}
 }
@@ -352,7 +352,7 @@ body {
 		background-size: 100%;
 		height: 100px;
 		width: 100px;
-		padding-top: 30px;
+		padding-top: 20px;
 	}
 	.name {
 		font-size: 40px;
