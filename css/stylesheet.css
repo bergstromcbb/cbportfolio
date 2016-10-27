@@ -14,9 +14,10 @@
 .homebuttons {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
-	width: 251px;
-	height: 268px;
-	padding-top: 100px;
+	width: 200px;
+	height: 200px;
+	background-size: 100%;
+	padding-top: 75px;
 }
 
 .baritself {
@@ -81,6 +82,10 @@ li a:hover {
 	bottom: 0;
 	z-index: -1;
 	width: 100%;
+}
+
+.indexbottombar {
+		max-width: 1050px;
 }
 
 .container {
