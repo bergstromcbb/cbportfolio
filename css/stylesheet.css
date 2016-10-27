@@ -339,11 +339,15 @@ body {
 		    padding-top: 40px;
 		    width: 150px;
 	}
+	.indextopgraphic{
+		margin-top: 0;
+	}
 }
 
 @media (max-width: 500px) {
 	body{
 		background-color: white;
+		font-size: 12px;
 	}
 	.baritself {
 		line-height: 10%;
@@ -361,7 +365,7 @@ body {
 		padding-top: 20px;
 	}
 	.name {
-		font-size: 40px;
+		font-size: 30px;
 	}
 	.middlelinks {
 		font-size: 25px;
