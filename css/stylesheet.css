@@ -14,10 +14,10 @@
 .homebuttons {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	background-size: 100%;
-	padding-top: 60px;
+	padding-top: 35px;
 }
 
 .baritself {
@@ -58,6 +58,10 @@ li a:hover {
 .topgraphic {
 	width: 100%;
 	margin-top: 55px;
+}
+
+.indextopgraphic {
+	margin-top: 0;
 }
 
 .name{
@@ -284,7 +288,9 @@ h1 {
 	margin-bottom: 0px;
 }
 
-
+.nonavname {
+	padding-top: 40px;
+}
 
 .thingsidid {
 	background-color: white;
@@ -294,8 +300,8 @@ h1 {
 .middlelinks {
 	text-align: center;
 	color: white;
-	font-weight: bold;
-	font-family: "KG Girl On Fire";
+/*	font-weight: bold;
+*/	font-family: "KG Girl On Fire";
 	font-size: 45px;
 }
 
