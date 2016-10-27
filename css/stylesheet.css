@@ -244,13 +244,23 @@ h2 {
 	font-family: "KG Girl On Fire";
 	color: #e26a8d;
 	margin: 0;
-}
+	font-weight: bold;
+	font-size: 25px;
+/*	padding-top: 3px;
+	padding-bottom: 3px;
+*/}
 
 h3 {
 	font-family: "KG Girl On Fire";
+	font-size: 20px;
+	font-weight: bold;
+/*	padding-top: 3px;
+	padding-bottom: 5px;
+*/}
 
+.bullet {
+	color: #e26a8d;
 }
-
 
 a {
 	margin-left: 10px;
@@ -292,6 +302,11 @@ h1 {
 div {
 	width: 75%;
 	margin: 0 auto;
+}
+
+body {
+	font-family: "avenir";
+	line-height: 1.25;
 }
 
 /* media queries*/
