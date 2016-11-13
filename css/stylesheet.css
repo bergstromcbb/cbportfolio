@@ -11,6 +11,10 @@
 	padding: 0;
 }
 
+div {
+	text-align: center;
+}
+
 .homebuttons {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
@@ -289,7 +293,7 @@ h1 {
 }
 
 .nonavname {
-	padding-top: 30px;
+	padding-top: 0px;
 }
 
 .thingsidid {
