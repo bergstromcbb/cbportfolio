@@ -115,14 +115,20 @@ li a:hover {
 
 .containeroverall {
 	width: 75%;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .leftcolumn{
 	width: 30%;
+	text-align: left;
 	background-color: mistyrose;
 	padding: 15px;
+}
+
+.aboutparagraph {
+	text-align: left;
 }
 
 main {
@@ -154,8 +160,10 @@ section {
 
 
 .rightcolumn{
+
 	width: 70%;
-	padding: 15px;
+	padding: 25px;
+	text-align: left;
 }
 
 .floating-box {
