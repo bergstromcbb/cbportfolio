@@ -15,6 +15,19 @@ div {
 	text-align: center;
 }
 
+.fillertext {
+	padding-top: 40px;
+	text-align: left;
+	font-family: "avenir";
+	line-height: 1.25;
+	font-size: 2.5vw;
+}
+
+.resumefillertext {
+	font-size: 2vw;
+	font-family: "avenir";
+}
+
 .homebuttons {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
@@ -61,7 +74,7 @@ li a:hover {
 
 .topgraphic {
 	width: 100%;
-	margin-top: 55px;
+	margin-top: 35px;
 }
 
 .indextopgraphic {
@@ -127,6 +140,13 @@ li a:hover {
 	padding: 15px;
 }
 
+.rightcolumn{
+
+	width: 70%;
+	padding: 25px;
+	text-align: left;
+}
+
 .aboutparagraph {
 	text-align: left;
 }
@@ -158,55 +178,12 @@ section {
 	padding:3px;
 }
 
-
-.rightcolumn{
-
-	width: 70%;
-	padding: 25px;
-	text-align: left;
-}
-
 .floating-box {
 	display: inline-block;
 	width: 200px;
 	height: 75px;
 	margin: 10px;
 	border: 3px solid #73AD21;
-}
-
-.box1 {
-	display: inline-block;
-	color: #e26a8d;
-	width: 190px;
-	font-size: 25px;
-	margin: 10px;
-}
-.box2 {
-	display: inline-block;
-	color: #e26a8d;
-	width: 190px;
-	font-size: 25px;
-	margin: 10px;
-}
-.box3 {
-	display: inline-block;
-	color: #e26a8d;
-	font-size: 25px;
-	width: 190px;
-	margin: 10px;
-}
-
-.box4 {
-	display: inline-block;
-	margin: 10px;
-}
-.box5 {
-	display: inline-block;
-	margin: 10px;
-}
-.box6 {
-	display: inline-block;
-	margin: 10px;
 }
 
 .project {
@@ -217,34 +194,11 @@ section {
 }
 
 
-.box7 {
-	width: 190px;
-	font-family: "helvetica neue";
-	font-size: 15px;
-	margin: 10px;
-	text-align: left;
-}
-.box8 {
-	display: inline-block;
-	width: 190px;
-	font-family: "helvetica neue";
-	font-size: 15px;
-	margin: 10px;
-}
-.box9 {
-	display: inline-block;
-	margin: 10px;
-	font-family: "helvetica neue";
-	font-size: 15px;
-	width: 190px;
-}
-
 .designer {
 	font-family: "KG Girl On Fire";
 	font-size: 20px;
 	font-weight: bold;
 	margin-top: 8px;
-
 }
 
 .secondrow {
@@ -312,8 +266,7 @@ h1 {
 .middlelinks {
 	text-align: center;
 	color: white;
-/*	font-weight: bold;
-*/	font-family: "KG Girl On Fire";
+	font-family: "KG Girl On Fire";
 	font-size: 45px;
 }
 
@@ -322,13 +275,14 @@ div {
 	margin: 0 auto;
 }
 
-body {
+.fillertext {
 	font-family: "avenir";
 	line-height: 1.25;
+	font-size: 1.25vw;
 }
 
 /* media queries*/
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	body{
 		background-color: white;
 	}
@@ -383,4 +337,4 @@ body {
 		font-size: 25px;
 		font-weight: normal;
 	}
-}
+}*/

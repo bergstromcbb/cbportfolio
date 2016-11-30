@@ -1,0 +1,14 @@
+<div class="modal-header">
+    <h3 class="modal-title" id="modal-title">{{$ctrl.headline}}</h3>
+</div>
+<div class="modal-body" id="modal-body">
+    <ul>
+        <li >
+            <a class="modalheader" href="{{$ctrl.link}}">Please Visit!</a>
+        </li>
+        <li class="modaldesc">{{$ctrl.description}}</li>
+    </ul>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" type="button" ng-click="$ctrl.ok()">OK</button>
+</div>

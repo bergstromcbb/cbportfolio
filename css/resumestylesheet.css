@@ -1,0 +1,227 @@
+@font-face {
+	font-family: "KG Girl On Fire";
+	src: url(../fonts/KGGirlOnFire.ttf);
+}
+
+li {
+	text-decoration: none;
+	font-size: 1.5vw;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.heading {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+.bar {
+	float: left;
+	font-family: "KG Girl On Fire";
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+}
+
+.baritself {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	background-color: #e26a8d;
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.topbar {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	-webkit-transition: background-color 4s;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.active {
+	background-color: #f2b1c4;
+	color: #707070;
+}
+
+.topgraphic {
+	width: 100%;
+	margin-top: 35px;
+}
+
+.bottombar {
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+}
+
+.fillertext {
+	text-align: left;
+	font-family: "avenir";
+	line-height: 1.25;
+	font-size: 1.5vw;
+}
+
+.resumefillertext {
+	font-size: 2vw;
+	font-family: "avenir";
+}
+
+.container {
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	font-family: "KG Girl On Fire";
+
+}
+
+.columnsoverall {
+	display: flex;
+	flex-direction: row;
+}
+
+.containeroverall {
+	width: 75%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftcolumn{
+	width: 30%;
+	text-align: left;
+	background-color: mistyrose;
+	padding: 15px;
+}
+
+.rightcolumn{
+
+	width: 70%;
+	padding: 25px;
+	text-align: left;
+	padding-top: 0;
+}
+
+.designer {
+	font-family: "KG Girl On Fire";
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 8px;
+}
+
+.resumename {
+	font-size: 3em;
+	font-family: "KG Girl On Fire";
+}
+
+h3 {
+	font-family: "KG Girl On Fire";
+	color: #e26a8d;
+	margin: 0;
+	font-weight: bold;
+/*	padding-top: 3px;
+	padding-bottom: 3px;
+*/}
+
+h2 {
+	font-family: "KG Girl On Fire";
+	font-weight: bold;
+	color: #e26a8d;
+	margin-top: 1vw;
+	margin-bottom: .25em;
+/*	padding-top: 3px;
+	padding-bottom: 5px;
+*/}
+
+ul {
+	margin: 0;
+}
+
+.bullet {
+	color: #e26a8d;
+}
+
+a {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: #e26a8d;
+}
+
+.resumename {
+	text-align: left;
+	color: #e26a8d;
+	margin-bottom: 0px;
+	font-size: 3em;
+}
+
+/* media queries*/
+/*@media (max-width: 900px) {
+	body{
+		background-color: white;
+	}
+	.topgraphic {
+		margin-top: 28px;
+	}
+	.baritself {
+		line-height: 10%;
+	}
+	.middlelinks {
+		color: white;
+		font-weight: normal;
+		font-size: 35px;
+	}
+	.pinksquare {
+		width: 125px;
+	}
+	.homebuttons {
+		    background-size: 100%;
+		    padding-top: 40px;
+		    width: 150px;
+	}
+	.indextopgraphic{
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	body{
+		background-color: white;
+		font-size: 12px;
+	}
+	.baritself {
+		line-height: 10%;
+		background-color: #e26a8d;
+		min-width: 500px;
+	}
+	.pinksquare {
+		background-color: mistyrose;
+		width: 75px;
+	}
+	.homebuttons{
+		background-size: 100%;
+		height: 100px;
+		width: 100px;
+		padding-top: 20px;
+	}
+	.name {
+		font-size: 30px;
+	}
+	.middlelinks {
+		font-size: 25px;
+		font-weight: normal;
+	}
+}*/

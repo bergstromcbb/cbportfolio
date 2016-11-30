@@ -1,0 +1,8 @@
+<div ng-controller="ModalCtrlr as $ctrl" class="modal-demo">
+	<span>
+		<button type="button" class="btn btn-default prettybut" ng-click="$ctrl.open(section.link, section.description, section.headline)">
+			<h2>{{section.headline}}</h2>
+		</button>
+	</span>
+	<a href="{{section.link}}"><img class="portimages" ng-src="{{section.photo}}"/></a>
+</div>
