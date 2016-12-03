@@ -48,12 +48,12 @@ app.controller("infoSectionCtrl",function($scope){
     headline: "Decorating Words",
     link: "https://bergstromcbb.github.io/lab_13",
     photo: "images/wordwithdec.png",
-    description: "sdfgsdf"
+    description: ""
   },{
     headline: "It's that time of year",
     link: "https://lab-22.herokuapp.com/",
     photo: "images/balls.png",
-    description: "sdfgsdf"
+    description: ""
   }
   ];
   

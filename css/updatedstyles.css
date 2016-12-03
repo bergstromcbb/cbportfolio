@@ -119,9 +119,12 @@ h3 {
 }
 
 /*modal styling*/
+#modal-title{
+	font-size: 6vw;
+}
 
 .modalheader {
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #e26a8d;
 }
 
