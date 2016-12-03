@@ -9,13 +9,15 @@ body {
 		margin-top: 0;
 		line-height: 1.42857143;
 		 min-width: 400px;
-}
+		}
 
 a {
 	color: #e26a8d;
 	text-decoration: none;
-	margin-left: 10px;
-	margin-right: 10px;
+}
+
+button{
+	padding: 0;
 }
 
 a:hover, a:active, a:focus {
@@ -30,7 +32,7 @@ section {
 }
 
 div {
-	width: 75%;
+	/*width: 75%;*/
 	margin: auto;
 }
 
@@ -76,7 +78,8 @@ h3 {
 	font-family: "avenir";
 	line-height: 1.25;
 	font-size: 1.75vw;
-	margin-left: 3vw;
+	margin-left: 3em;
+	width: 75%
 }
 
 .aboutme {
@@ -126,9 +129,14 @@ h3 {
 	width: 100%;
 }
 
+.center {
+	text-align: center;
+}
+
 .prettybut {
 	background-color: transparent;
 	border: 0;
+	padding: 0;
 }
 
 .btn-primary {
@@ -219,6 +227,8 @@ li a:hover {
 	padding: 3px 3px;
 	-webkit-transition: background-color 4s;
 	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .active {
@@ -258,8 +268,9 @@ li a:hover {
 .homebuttons {
 	background-image: url("../images/circle.png");
 	background-repeat: no-repeat;
-	width: 150px;
-	height: 150px;
+	width: 25%;
+	height: 15em;
+	display: inline-block;
 	background-size: 100%;
 	padding-top: 35px;
 	margin: auto;
@@ -274,8 +285,8 @@ li a:hover {
 	text-align: center;
 	color: white;
 	font-family: "KG Girl On Fire";
-	font-size: 3.75vw;
-	margin-top: .2vw;
+	font-size: 5.75vw;
+	margin-top: 3vw;
 }
 
 .indextopgraphic{

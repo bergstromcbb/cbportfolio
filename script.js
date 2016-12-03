@@ -39,9 +39,20 @@ app.controller("infoSectionCtrl",function($scope){
     photo: "images/angularRouting.png",
     description: "This was our first angularJS project.  It was great working with so many different templates and exciting updates."
   },{
-    headline: "Poorman's Reddit",
-    link: "https://bergstromcbb.github.io/reddit_lab",
-    photo: "images/poormans.png",
+    headline: "To do list",
+    link: "https://bergstromcbb.github.io/lab_12",
+    photo: "images/todo.png",
+    description: "",
+    repolink: "https://github.com/bergstromcbb/lab_12"
+  },{
+    headline: "Decorating Words",
+    link: "https://bergstromcbb.github.io/lab_13",
+    photo: "images/wordwithdec.png",
+    description: "sdfgsdf"
+  },{
+    headline: "It's that time of year",
+    link: "https://lab-22.herokuapp.com/",
+    photo: "images/balls.png",
     description: "sdfgsdf"
   }
   ];
