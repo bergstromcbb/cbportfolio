@@ -263,7 +263,7 @@ li a:hover {
 
 #indexCenter {
 	width: 80%;
-	margin: 0 auto;
+	margin: auto;
 	display: block;
 	text-align: center;
 }
@@ -275,7 +275,7 @@ li a:hover {
 	height: 15em;
 	display: inline-block;
 	background-size: 100%;
-	padding-top: 35px;
+	padding-top: 3vw;
 	margin: auto;
 }
 
@@ -299,13 +299,18 @@ li a:hover {
 /* headers */
 
 .name{
-	padding-top: 150px;	
+	padding-top: 5vw;	
 	width: 100%;
 	color:#e26a8d;
 	text-align: center;
 	font-size: 8vw;
 	font-style: bold;
 	font-family: "KG Girl On Fire";
+	text-shadow:
+    -1px -1px 18px white,
+    1px -1px 18px white,
+    -1px 1px 18px white,
+    1px 1px 18px white;  
 }
 
 .name2 {
