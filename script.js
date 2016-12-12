@@ -42,18 +42,18 @@ app.controller("infoSectionCtrl",function($scope){
     headline: "To do list",
     link: "https://bergstromcbb.github.io/lab_12",
     photo: "images/todo.png",
-    description: "",
+    description: "This was a lab we did to construct a to do list that you could add and remove tasks from",
     repolink: "https://github.com/bergstromcbb/lab_12"
   },{
     headline: "Decorating Words",
     link: "https://bergstromcbb.github.io/lab_13",
     photo: "images/wordwithdec.png",
-    description: ""
+    description: "With this project we learned how to first create a random saying generator of one word or a phrase and then decorate it at the touch of a button"
   },{
     headline: "It's that time of year",
     link: "https://lab-22.herokuapp.com/",
     photo: "images/balls.png",
-    description: ""
+    description: "This was my first experience with deplying a node server to heroko.  We pulled random sayings and graphics and even threw in an animation to smooth things out a bit."
   }
   ];
   
