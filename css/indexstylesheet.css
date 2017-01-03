@@ -1,3 +1,8 @@
+@font-face {
+	font-family: "KG Girl On Fire";
+	src: url(../fonts/KGGirlOnFire.ttf);
+}
+
 #seatContainer {
 	justify-content: center;
 	flex-wrap: wrap;
@@ -8,7 +13,7 @@
 	text-align: center;
 	padding: 5px;
 	list-style-type: none;
-	max-width: 950px;
+	/*max-width: 950px;*/
 
 }
 
