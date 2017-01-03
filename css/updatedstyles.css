@@ -24,10 +24,6 @@ a:hover, a:active, a:focus {
 	text-decoration: none;
 }
 
-section {
-	/*display: inline-block;*/
-}
-
 div {
 	margin: auto;
 }
@@ -39,7 +35,7 @@ h1 {
 	text-align: center;
 	color: #e26a8d;
 	margin-top: 20px;
-	padding-top: 3em;
+	padding-top: 2em;
 	margin-bottom: 0px;
 }
 
@@ -180,7 +176,7 @@ h3 {
 	text-align: center;
 	font-size: 3vw;
 	width: 30%;
-	/*margin: 1%;*/
+	margin: 1%;
 	padding: 1%;
 	list-style-type: none;
 }
