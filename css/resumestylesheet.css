@@ -27,8 +27,7 @@ ul {
 }
 
 .baritself {
-	list-style-type: none;
-	padding: 0;
+		list-style-type: none;
 	overflow: hidden;
 	background-color: #e26a8d;
 	margin: 0;
@@ -39,10 +38,10 @@ ul {
 }
 
 .topbar {
-	display: block;
+		display: block;
 	color: white;
+	font-size: 2.75vw;
 	text-align: center;
-	padding: 14px 16px;
 	-webkit-transition: background-color 4s;
 	text-decoration: none;
 }
@@ -58,7 +57,7 @@ li a:hover {
 
 .topgraphic {
 	width: 100%;
-	margin-top: 35px;
+	z-index: -1;
 }
 
 .bottombar {
@@ -124,6 +123,8 @@ li a:hover {
 }
 
 .resumename {
+
+	margin-top: 5vw;
 	font-size: 3em;
 	font-family: "KG Girl On Fire";
 }
