@@ -1,0 +1,77 @@
+#seatContainer {
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+	width: 80%;
+	height: 100%;
+	display: flex;
+	text-align: center;
+	padding: 5px;
+	list-style-type: none;
+	max-width: 950px;
+
+}
+
+.seat {
+	background-image: url(../images/circle.png);
+	background-size: 100%;
+	text-align: center;
+	font-size: 3vw;
+	height: 7em;
+	width: 25%;
+	background-repeat: no-repeat;
+	margin: 2%;
+	color: black;
+	padding: 1%;
+	list-style-type: none;
+}
+
+.circles {
+	/*border: solid black;*/
+	position: absolute;
+	z-index: -1;
+	width: 25%;
+}
+
+.middlelinks {
+	text-align: center;
+	font-family: "KG Girl On Fire";
+	color: white;
+	font-size: 5.75vw;
+	line-height: 20.5vw;
+	max-width: 850px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.name{
+	padding-top: 7vw;	
+	width: 100%;
+	color:#e26a8d;
+	text-align: center;
+	font-size: 8vw;
+	font-style: bold;
+	font-family: "KG Girl On Fire";
+	text-shadow:
+    -1px -1px 18px white,
+    1px -1px 18px white,
+    -1px 1px 18px white,
+    1px 1px 18px white;  
+}
+
+.bottombar {
+	position: fixed;
+	bottom: -3vw;
+	z-index: -1;
+	width: 100%;
+}
+
+.topgraphic {
+	width: 100%;
+	position: fixed;
+	/*margin-top: 3vw;*/
+	z-index: -1;
+}

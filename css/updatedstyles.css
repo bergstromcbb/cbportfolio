@@ -5,10 +5,9 @@
 
 body {
 		font-family: "KG Girl On Fire";
-		position: relative;
 		margin: 0;
 		line-height: 1.42857143;
-		 min-width: 400px;
+		min-width: 400px;
 		}
 
 a {
@@ -26,18 +25,11 @@ a:hover, a:active, a:focus {
 }
 
 section {
-	display: inline-block;
-	/*border-style: solid;*/
-	/*border-color: black;*/
+	/*display: inline-block;*/
 }
 
 div {
-	/*width: 75%;*/
 	margin: auto;
-}
-
-.pairingHeader{
-	font-size: 4vw;
 }
 
 h1 {
@@ -261,22 +253,35 @@ li a:hover {
 /* index specific styling */
 
 #indexCenter {
+	/*border: solid black;*/
 	width: 80%;
 	margin: auto;
-	display: block;
-	text-align: center;
+	/*display: block;*/
+}
+
+.wholehomecontainer{
+	width: 90%;
+	margin: auto;
+	/*padding-left: 5em;*/
 }
 
 .homebuttons {
-	background-image: url("../images/circle.png");
-	background-repeat: no-repeat;
 	width: 25%;
-	height: 15em;
+	/*height: 15em;*/
 	display: inline-block;
-	background-size: 100%;
-	padding-top: 3vw;
+	/*padding-top: 3vw;*/
+	/*border: solid black;*/
 	margin: auto;
-	padding-bottom: 3vw;
+	padding-left: 10px;
+	/*padding-bottom: 3vw;*/
+	position: relative;
+}
+
+.circles {
+	/*border: solid black;*/
+	position: absolute;
+	z-index: -1;
+	width: 100%;
 }
 
 .indextopgraphic {
@@ -285,11 +290,14 @@ li a:hover {
 }
 
 .middlelinks {
-	text-align: center;
+	/*border: solid black;*/
 	color: white;
 	font-family: "KG Girl On Fire";
 	font-size: 5.75vw;
-	margin-top: 3vw;
+	z-index: 1;
+	text-align: center;
+	padding-top: 1.5vw;
+	position: relative;
 }
 
 .indextopgraphic{
@@ -302,7 +310,7 @@ li a:hover {
 	padding-top: 5vw;	
 	width: 100%;
 	color:#e26a8d;
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 8vw;
 	font-style: bold;
 	font-family: "KG Girl On Fire";
