@@ -6,6 +6,12 @@ app.controller("infoSectionCtrl",function($scope){
 
   $scope.sectionInfo = [
   {
+    headline: "Recipe Cook",
+    link: "http://recipecook.herokuapp.com",
+    photo: "images/recipecook.jpg",
+    description: "This was my final project for my bootcamp.  I used angular as a framework and shows my attention to detail."
+  },
+  {
     headline: "Fan Site",
     link: "https://bergstromcbb.github.io/Bergstrom/Bergstrom_Bootstrap",
     photo: "images/designatedsurvivor.png",
