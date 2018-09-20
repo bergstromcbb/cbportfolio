@@ -1,326 +1,331 @@
 @font-face {
-	font-family: "KG Girl On Fire";
-	src: url(../fonts/KGGirlOnFire.ttf);
+    font-family: "KG Girl On Fire";
+    src: url(../fonts/KGGirlOnFire.ttf);
 }
 
 body {
-		font-family: "KG Girl On Fire";
-		margin: 0;
-		line-height: 1.42857143;
-		min-width: 400px;
-		}
+    font-family: "KG Girl On Fire";
+    margin: 0;
+    line-height: 1.42857143;
+    min-width: 400px;
+}
 
 a {
-	color: #e26a8d;
-	text-decoration: none;
+    color: #e26a8d;
+    text-decoration: none;
 }
 
-button{
-	padding: 0;
+button {
+    padding: 0;
 }
 
-a:hover, a:active, a:focus {
-	color: #e26a8d;
-	text-decoration: none;
+a:hover,
+a:active,
+a:focus {
+    color: #e26a8d;
+    text-decoration: none;
 }
 
 div {
-	margin: auto;
+    margin: auto;
 }
 
 h1 {
-	font-weight: bold;
-	font-size: 5vw;
-	text-shadow: 5px 2px 5px rgba(255, 255, 255, 1);
-	text-align: center;
-	color: #e26a8d;
-	margin-top: 20px;
-	padding-top: 2em;
-	margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 5vw;
+    text-shadow: 5px 2px 5px rgba(255, 255, 255, 1);
+    text-align: center;
+    color: #e26a8d;
+    margin-top: 20px;
+    padding-top: 2em;
+    margin-bottom: 0px;
 }
 
 h2 {
-	font-family: "KG Girl On Fire";
-	margin: 0;
-	font-weight: bold;
-	font-size: 2.5vw;
-	color: #707070;
+    font-family: "KG Girl On Fire";
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: #707070;
 }
 
 h3 {
-	font-family: "KG Girl On Fire";
-	font-size: 20px;
-	font-weight: bold;
+    font-family: "KG Girl On Fire";
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .designer {
-	font-family: "KG Girl On Fire";
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: 8px;
+    font-family: "KG Girl On Fire";
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
 .fillertext {
-	padding-top: 2	em;
-	text-align: left;
-	font-family: "avenir";
-	line-height: 1.25;
-	font-size: 1.75vw;
-	margin-left: 3em;
-	width: 75%
+    padding-top: 2 em;
+    text-align: left;
+    font-family: "avenir";
+    line-height: 1.25;
+    font-size: 18px;
+    margin-left: 3em;
+    width: 75%;
 }
 
 .aboutme {
-	margin-left: 35px;
-	text-align: left;
+    font-size: 40px;
+    padding-top: 55px;
+    margin-left: 35px;
+    text-align: left;
 }
 
 .resumefillertext {
-	font-size: 2vw;
-	font-family: "avenir";
+    font-size: 2vw;
+    font-family: "avenir";
 }
+
 
 /* resume specific styling */
 
-.leftcolumn{
-	width: 30%;
-	text-align: left;
-	background-color: mistyrose;
-	padding: 15px;
+.leftcolumn {
+    width: 30%;
+    text-align: left;
+    background-color: mistyrose;
+    padding: 15px;
 }
 
-.rightcolumn{
-	width: 70%;
-	padding: 25px;
-	text-align: left;
+.rightcolumn {
+    width: 70%;
+    padding: 25px;
+    text-align: left;
 }
 
 .resumename {
-	font-family: "KG Girl On Fire";
-	text-align: left;
-	color: #e26a8d;
-	margin-bottom: 0px;
+    font-family: "KG Girl On Fire";
+    text-align: left;
+    color: #e26a8d;
+    margin-bottom: 0px;
 }
 
 .bullet {
-	color: #e26a8d;
+    color: #e26a8d;
 }
 
+
 /*modal styling*/
-#modal-title{
-	font-size: 4vw;
+
+#modal-title {
+    font-size: 4vw;
 }
 
 .modalheader {
-	font-size: 3vw;
-	color: #e26a8d;
+    font-size: 3vw;
+    color: #e26a8d;
 }
 
 .portimages {
-	width: 100%;
+    width: 100%;
 }
 
 .center {
-	text-align: center;
+    text-align: center;
 }
 
 .prettybut {
-	background-color: transparent;
-	border: 0;
-	padding: 0;
+    background-color: transparent;
+    border: 0;
+    padding: 0;
 }
 
 .btn-primary {
-	border-color: white;
-	font-size: 3vw;
-	background-color: #e26a8d;
+    border-color: white;
+    font-size: 3vw;
+    background-color: #e26a8d;
 }
 
 .modaldesc {
-	font-family: avenir, san-serif;
-	font-size: 2vw;	
+    font-family: avenir, san-serif;
+    font-size: 2vw;
 }
+
 
 /*header white drop shadow*/
 
 .strokeme {
-    text-shadow:
-    -1px -1px 8px white,
-    1px -1px 8px white,
-    -1px 1px 8px white,
-    1px 1px 8px white;  
+    text-shadow: -1px -1px 8px white, 1px -1px 8px white, -1px 1px 8px white, 1px 1px 8px white;
 }
 
 .header {
-	color: #e26a8d;
-	font-family: "KG Girl On Fire";
+    color: #e26a8d;
+    font-family: "KG Girl On Fire";
 }
+
 
 /*flex-box container*/
 
 #overallcontainer {
-	justify-content: center;
-	flex-wrap: wrap;
-	margin: auto;
-	display: flex;
-	border-radius: 8px;
-	width: 75%;
-	text-align: center;
-	color: white;
-	padding: 5px;
-	list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    border-radius: 8px;
+    width: 75%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    list-style-type: none;
 }
 
 .project {
-	border-radius: 8px;
-	text-align: center;
-	font-size: 3vw;
-	width: 30%;
-	margin: 1%;
-	padding: 1%;
-	list-style-type: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 3vw;
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    list-style-type: none;
 }
+
 
 /* nav bar */
 
 .bar {
-	float: left;
-	font-family: "KG Girl On Fire";
-	font-size: 25px;
-	margin: 0;
-	padding: 0;
+    float: left;
+    font-family: "KG Girl On Fire";
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
 }
 
 .pairings {
-	font-size: 2vw;
+    font-size: 2vw;
 }
 
 li a:hover {
-	background-color: #111;
+    background-color: #111;
 }
 
 .baritself {
-	list-style-type: none;
-	overflow: hidden;
-	background-color: #e26a8d;
-	margin: 0;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #e26a8d;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .topbar {
-	display: block;
-	color: white;
-	font-size: 2.75vw;
-	text-align: center;
-	-webkit-transition: background-color 4s;
-	text-decoration: none;
-	padding-left: 1vw;
-	padding-right: 1vw;
+    display: block;
+    color: white;
+    font-size: 2.75vw;
+    text-align: center;
+    -webkit-transition: background-color 4s;
+    text-decoration: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 .active {
-	background-color: #f2b1c4;
-	color: #707070;
+    background-color: #f2b1c4;
+    color: #707070;
 }
+
 
 /* top and bottom bar graphics */
 
 .topgraphic {
-	width: 100%;
-	position: fixed;
-	/*margin-top: 3vw;*/
-	z-index: -1;
+    width: 100%;
+    position: fixed;
+    /*margin-top: 3vw;*/
+    z-index: -1;
 }
 
 .bottombar {
-	position: fixed;
-	bottom: -3vw;
-	z-index: -1;
-	width: 100%;
+    position: fixed;
+    bottom: -3vw;
+    z-index: -1;
+    width: 100%;
 }
 
 .indexbottombar {
-	max-width: 1050px;
+    max-width: 1050px;
 }
+
 
 /* index specific styling */
 
 #indexCenter {
-	/*border: solid black;*/
-	width: 80%;
-	margin: auto;
-	/*display: block;*/
+    /*border: solid black;*/
+    width: 80%;
+    margin: auto;
+    /*display: block;*/
 }
 
-.wholehomecontainer{
-	width: 90%;
-	margin: auto;
-	/*padding-left: 5em;*/
+.wholehomecontainer {
+    width: 90%;
+    margin: auto;
+    /*padding-left: 5em;*/
 }
 
 .homebuttons {
-	width: 25%;
-	/*height: 15em;*/
-	display: inline-block;
-	/*padding-top: 3vw;*/
-	/*border: solid black;*/
-	margin: auto;
-	padding-left: 10px;
-	/*padding-bottom: 3vw;*/
-	position: relative;
+    width: 25%;
+    /*height: 15em;*/
+    display: inline-block;
+    /*padding-top: 3vw;*/
+    /*border: solid black;*/
+    margin: auto;
+    padding-left: 10px;
+    /*padding-bottom: 3vw;*/
+    position: relative;
 }
 
 .circles {
-	/*border: solid black;*/
-	position: absolute;
-	z-index: -1;
-	width: 100%;
+    /*border: solid black;*/
+    position: absolute;
+    z-index: -1;
+    width: 100%;
 }
 
 .indextopgraphic {
-	margin-top: 0;
-	padding-top: 0;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .middlelinks {
-	/*border: solid black;*/
-	color: white;
-	font-family: "KG Girl On Fire";
-	font-size: 5.75vw;
-	z-index: 1;
-	text-align: center;
-	padding-top: 1.5vw;
-	position: relative;
+    /*border: solid black;*/
+    color: white;
+    font-family: "KG Girl On Fire";
+    font-size: 5.75vw;
+    z-index: 1;
+    text-align: center;
+    padding-top: 1.5vw;
+    position: relative;
 }
 
-.indextopgraphic{
-		margin-top: 0;
-	}
+.indextopgraphic {
+    margin-top: 0;
+}
+
 
 /* headers */
 
-.name{
-	padding-top: 5vw;	
-	width: 100%;
-	color:#e26a8d;
-	/*text-align: center;*/
-	font-size: 8vw;
-	font-style: bold;
-	font-family: "KG Girl On Fire";
-	text-shadow:
-    -1px -1px 18px white,
-    1px -1px 18px white,
-    -1px 1px 18px white,
-    1px 1px 18px white;  
+.name {
+    padding-top: 5vw;
+    width: 100%;
+    color: #e26a8d;
+    /*text-align: center;*/
+    font-size: 8vw;
+    font-style: bold;
+    font-family: "KG Girl On Fire";
+    text-shadow: -1px -1px 18px white, 1px -1px 18px white, -1px 1px 18px white, 1px 1px 18px white;
 }
 
 .name2 {
-	width: 100%;
-	text-align: center;
-	font-size: 50px;
-	font-style: bold;
-	font-family: "KG Girl On Fire";
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-style: bold;
+    font-family: "KG Girl On Fire";
 }
